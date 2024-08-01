@@ -10,6 +10,10 @@ This repository contains the backend implementation for an e-commerce applicatio
 │   ├── login.php
 │   ├── signup.php
 │   ├── verifycode.php
+├── forgotpass/
+│   ├── checkemail.php
+│   ├── resetpass.php
+│   ├── verifycode.php
 ├── connect.php
 ├── functions.php
 ├── test.php
