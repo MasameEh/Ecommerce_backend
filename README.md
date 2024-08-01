@@ -5,7 +5,6 @@ This repository contains the backend implementation for an e-commerce applicatio
 ## Folder Structure
 
 ```plaintext
-.
 ├── auth/
 │   ├── login.php
 │   ├── signup.php
