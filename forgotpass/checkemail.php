@@ -15,7 +15,7 @@ if($count > 0)
 {
     $data = array("users_verifycode" => $verifycode);
     updateData("users", $data, "users_email = '$email'" , false);
-    sendEmail($email, "Ecommerce Verification Code", "Please enter the confirmation code below on Ecommerce to finish the verification process: $verifycode");
+    //sendEmail($email, "Ecommerce Verification Code", "Please enter the confirmation code below on Ecommerce to finish the verification process: $verifycode");
     echo json_encode(array("status" => "success"));
 }
 else
