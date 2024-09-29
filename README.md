@@ -5,10 +5,13 @@ This repository contains the backend implementation for an e-commerce applicatio
 ## Folder Structure
 
 ```plaintext
-.
 ├── auth/
 │   ├── login.php
 │   ├── signup.php
+│   ├── verifycode.php
+├── forgotpass/
+│   ├── checkemail.php
+│   ├── resetpass.php
 │   ├── verifycode.php
 ├── connect.php
 ├── functions.php
